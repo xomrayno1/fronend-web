@@ -4,6 +4,7 @@ import CustomerService from '@/service/CustomerService';
 import ProductService from '@/service/ProductService';
 import { ref, onBeforeMount } from 'vue';
 import { useLayout } from '@/layout/composables/layout';
+ 
 
 const { contextPath } = useLayout();
 

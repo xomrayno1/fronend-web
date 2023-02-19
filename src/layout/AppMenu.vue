@@ -9,6 +9,18 @@ const model = ref([
         items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' }]
     },
     {
+        label: 'Development',
+        items: [
+            { label: 'Sản phẩm',  icon: 'pi pi-fw pi-id-card', to: '/sale/product' },
+            { label: 'Danh mục',  icon: 'pi pi-fw pi-id-card', to: '/sale/category' },
+            { label: 'Nhà cung cấp',  icon: 'pi pi-fw pi-id-card', to: '/sale/supplier' },
+            { label: 'Khách hàng',  icon: 'pi pi-fw pi-id-card', to: '/sale/customer' },
+            { label: 'Tồn kho',  icon: 'pi pi-fw pi-id-card', to: '/sale/stock' },
+            { label: 'Hóa đơn',  icon: 'pi pi-fw pi-id-card', to: '/sale/sale-order' },
+            { label: 'Công nợ',  icon: 'pi pi-fw pi-id-card', to: '/sale/debt' },
+        ]
+    },
+    {
         label: 'UI Components',
         items: [
             { label: 'Form Layout', icon: 'pi pi-fw pi-id-card', to: '/uikit/formlayout' },

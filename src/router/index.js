@@ -13,6 +13,18 @@ const router = createRouter({
                     name: 'dashboard',
                     component: () => import('@/views/Dashboard.vue')
                 },
+                //develop
+                {
+                    path: '/sale/product',
+                    name: 'product',
+                    component: () => import('@/views/sale/product/Product.vue')
+                },
+                {
+                    path: '/sale/category',
+                    name: 'Danh mục',
+                    component: () => import('@/views/sale/category/Category.vue')
+                },
+                //develop
                 {
                     path: '/uikit/formlayout',
                     name: 'formlayout',
